@@ -1,24 +1,5 @@
 #! /bin/bash
 
-# Ask if curl is installed
-echo "Do you have curl installed? (yes/no)"
-read answer
-
-# Check the user's input
-if [ "$answer" = "yes" ]; then
-  echo "Continuing..."
-elif [ "$answer" = "no" ]; then
-  echo "Installing..."
-  
-  # Execute batch script to download curl
-  bash -c "cmd curl-install.bat"
-  
-  # Wait for download
-  sleep 10
-else
-  echo "Invalid input. Please enter 'yes' or 'no'."
-fi
-
 # Set the login endpoint URL
 echo "Enter the login page link:"
 read login_url
