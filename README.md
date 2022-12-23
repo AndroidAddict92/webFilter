@@ -9,12 +9,6 @@ Here are the steps you can follow to install ssconvert on a Windows machine:
 1. Download and install the gtk2 library for Windows from the following link:
 https://www.gtk.org/docs/installations/windows/
 
-2. Download the gnumeric package for Windows from the following link:
-https://ftp.gnome.org/pub/GNOME/binaries/win32/gnumeric/
-
-3. Extract the gnumeric package to a location on your machine.
-
-4. Add the gtk2 and gnumeric bin directories to your PATH environment variable.
 
 BASH INTERPRETER FOR WINDOWS
 
@@ -25,3 +19,19 @@ To install Git on a Windows machine, follow these steps:
 2. Click on the "Download" button to download the latest version of Git for Windows.
 
 3. Run the downloaded installer file and follow the prompts to install Git.
+
+
+OPEN COMMAND PROMPT
+
+1. Open cmd
+
+2. Type curl-install 
+This will execute the batch script that installs curl to your windows machine
+
+End of the results should look like this:
+
+SUCCESS: Specified value was saved.
+curl 7.83.1 (Windows) libcurl/7.83.1 Schannel
+Release-Date: 2022-05-13
+Protocols: dict file ftp ftps http https imap imaps pop3 pop3s smtp smtps telnet tftp
+Features: AsynchDNS HSTS IPv6 Kerberos Largefile NTLM SPNEGO SSL SSPI UnixSockets
