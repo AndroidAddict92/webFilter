@@ -7,7 +7,7 @@ SSCONVERT INSTALLATION
 Here are the steps you can follow to install ssconvert on a Windows machine:
 
 1. Download and install the gtk2 library for Windows from the following link:
-https://www.gtk.org/download/windows.php
+https://www.gtk.org/docs/installations/windows/
 
 2. Download the gnumeric package for Windows from the following link:
 https://ftp.gnome.org/pub/GNOME/binaries/win32/gnumeric/
